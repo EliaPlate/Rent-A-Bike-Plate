@@ -1,0 +1,86 @@
+#user__edit__submit {
+  background: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10px;
+  border-radius: 5px;
+  border-width: 2px;
+  color: #ffffff;
+  border: 1px solid #6b6464;
+}
+
+#user__edit__input {
+  background: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 5px;
+  border-width: 2px;
+  color: #ffffff;
+  border: 1px solid #6b6464;
+}
+
+#user__edit__input:not(:focus)::placeholder {
+  text-align: center;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.274);
+}
+
+.errors {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#error__input {
+  font-family: "Montserrat";
+  color: black;
+  font-size: 20px;
+  margin-top: -40px;
+}
+
+.text__field select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: inherit;
+  line-height: inherit;
+  z-index: 1;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  text-align-last: center;
+  border: 1px solid #777;
+  border-radius: 0.25em;
+  padding: 0.13em 0.5em;
+  font-size: 1.03rem;
+  cursor: pointer;
+  line-height: 1.1;
+
+  background-color: #fff;
+  background-image: linear-gradient(to top, #f9f9f9, #fff 33%);
+  background: none;
+  outline: none;
+  color: #6b6464;
+  font-style: italic;
+}
+
+.text__field select:focus {
+  color: #929292;
+  font-style: normal;
+}
+
+.text__field select:focus {
+  border: 2px solid rgba(0, 255, 64, 0.404);
+  border-radius: 5px;
+}
+
+.swal2-content {
+  z-index: 2 !important;
+}
